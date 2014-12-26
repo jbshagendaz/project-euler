@@ -1,3 +1,3 @@
 project-euler
 =============
-Just a bunch of questions from [https://projecteuler.net/](project euler) in a couple languages
+Just a bunch of questions from [project euler](https://projecteuler.net/) in a couple languages
