@@ -11,24 +11,24 @@
 package main
 
 import (
-   "fmt"
+	"fmt"
 )
 
 func main() {
-  var n1 int64 = 1
-  var n2 int64 = 2
-  var n3 int64 = 3
-  sum := n2
+	var n1 int64 = 1
+	var n2 int64 = 2
+	var n3 int64 = 3
+	sum := n2
 
-  for n3 < 4000000 {
-    n1 = n2
-    n2 = n3
-    n3 = n1+n2
+	for n3 < 4000000 {
+		n1 = n2
+		n2 = n3
+		n3 = n1 + n2
 
-    if n3%2 == 0 {
-      sum += n3
-    }
+		if n3%2 == 0 {
+			sum += n3
+		}
 
-    fmt.Println(sum)
-  }
+		fmt.Println(sum)
+	}
 }
